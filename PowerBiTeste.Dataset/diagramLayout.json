@@ -10,20 +10,7 @@
       "nodes": [
         {
           "location": {
-            "x": 0,
-            "y": 0
-          },
-          "nodeIndex": "scoobydoo",
-          "nodeLineageTag": "031d4f79-d516-4310-948b-dd186c190915",
-          "size": {
-            "height": 300,
-            "width": 234
-          },
-          "zIndex": 0
-        },
-        {
-          "location": {
-            "x": 284,
+            "x": 70,
             "y": 0
           },
           "nodeIndex": "Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024",
@@ -32,7 +19,7 @@
             "height": 300,
             "width": 234
           },
-          "zIndex": 0
+          "zIndex": 1
         }
       ],
       "name": "All tables",
