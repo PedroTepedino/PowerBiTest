@@ -1,0 +1,84 @@
+{
+  "config": "{\"version\":\"5.51\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU02\",\"version\":\"5.51\",\"type\":2},\"customTheme\":{\"name\":\"CY23SU025302261561763726.json\",\"version\":\"5.51\",\"type\":1}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY23SU025302261561763726.json",
+            "path": "CY23SU025302261561763726.json",
+            "type": 201
+          }
+        ],
+        "name": "RegisteredResources",
+        "type": 1
+      }
+    },
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU02",
+            "path": "BaseThemes/CY24SU02.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "ReportSection",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"60546b92cadae60035b0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":912,\"y\":0,\"z\":2000,\"width\":368,\"height\":720,\"tabOrder\":2000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Projeto\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Projeto)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Projeto\"},\"Name\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Projeto\",\"NativeReferenceName\":\"Projeto\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Projeto\"}},\"Function\":5},\"Name\":\"CountNonNull(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Projeto)\",\"NativeReferenceName\":\"Count of Projeto\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Projeto\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 368.00,
+          "x": 912.00,
+          "y": 0.00,
+          "z": 2000.00
+        },
+        {
+          "config": "{\"name\":\"67905e00a41c188a8aa9\",\"layouts\":[{\"id\":0,\"position\":{\"x\":479.99999999999994,\"y\":0,\"z\":3000,\"width\":432,\"height\":720,\"tabOrder\":3000}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Tarefa\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Tarefa)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Tarefa\"},\"Name\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Tarefa\",\"NativeReferenceName\":\"Tarefa\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Tarefa\"}},\"Function\":5},\"Name\":\"CountNonNull(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Tarefa)\",\"NativeReferenceName\":\"Count of Tarefa\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Tarefa\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 720.00,
+          "width": 432.00,
+          "x": 480.00,
+          "y": 0.00,
+          "z": 3000.00
+        },
+        {
+          "config": "{\"name\":\"b34e86a420749399bbd0\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":64,\"z\":0,\"width\":479.99999999999994,\"height\":160,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"card\",\"projections\":{\"Values\":[{\"queryRef\":\"Sum(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Duração (decimal))\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Duração (decimal)\"}},\"Function\":0},\"Name\":\"Sum(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Duração (decimal))\",\"NativeReferenceName\":\"Sum of Duração (decimal)\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Duração (decimal)\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 160.00,
+          "width": 480.00,
+          "x": 0.00,
+          "y": 64.00,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"ba5c50b5bb00dc7e05d1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":0,\"y\":368,\"z\":1000,\"width\":479.99999999999994,\"height\":352,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Faturável\",\"active\":true}],\"Y\":[{\"queryRef\":\"CountNonNull(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Faturável)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Faturável\"},\"Name\":\"Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Faturável\",\"NativeReferenceName\":\"Faturável\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Faturável\"}},\"Function\":5},\"Name\":\"CountNonNull(Clockify_Relatório_De_Tempo_Detalhado_01_01_2024-31_12_2024.Faturável)\",\"NativeReferenceName\":\"Count of Faturável\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Faturável\"}},\"Function\":5}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 352.00,
+          "width": 480.00,
+          "x": 0.00,
+          "y": 368.00,
+          "z": 1000.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ],
+  "theme": "CY23SU025302261561763726.json"
+}
